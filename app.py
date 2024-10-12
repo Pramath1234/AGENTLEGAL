@@ -34,7 +34,7 @@ st.set_page_config(page_title="AgentLegal", layout="wide")
 
 # MySQL connection details
 MYSQL_USERNAME = "root"  # Replace with your MySQL username
-MYSQL_PASSWORD = "ranj123%40Data"  # Replace with your MySQL password
+MYSQL_PASSWORD = "MYSQLPASSWORD"  # Replace with your MySQL password
 MYSQL_HOST = "localhost"  # Change if your MySQL server is hosted elsewhere
 MYSQL_PORT = "3306"  # Default MySQL port
 MYSQL_DB = "legal_assistant_feedback"
@@ -212,9 +212,9 @@ st.title("AgentLegal")
 st.write("Welcome to the Legal Assistant Agent! Ask questions about legal matters, contracts, compliance, and more.")
 
 # Setup API tokens (hide API keys in real applications)
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
-os.environ["PINECONE_API_KEY"] = "2b35ca34-aa38-4d74-ade8-f33b448ec575"
-os.environ["PINECONE_ENV"] = "us-east-1"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "HUGGING_FACE_API"
+os.environ["PINECONE_API_KEY"] = "PINECONE_API"
+os.environ["PINECONE_ENV"] = "PINECONE_ENV"
 
 # Initialize Pinecone
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
