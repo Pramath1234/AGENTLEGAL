@@ -14,7 +14,7 @@ AgentLegal is a legal chatbot designed to assist with queries related to Indian 
 
 - **Python**: Core programming language used for backend logic and AI model integration.
 - **Langchain**
-- **Vector Database**: Pinecone.
+- **Pinecone**: Vector Database.
 - **AWS**: Cloud Infrastructure.
 - **HuggingFace Transformers**: Transformer models from HuggingFace's library for natural language processing (NLP).
 - **Generative AI**: Mistral AI, all-MiniLM-L12-v2
