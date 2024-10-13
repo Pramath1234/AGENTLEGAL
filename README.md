@@ -13,9 +13,13 @@ AgentLegal is a legal chatbot designed to assist with queries related to Indian 
 ## Technology Stack
 
 - **Python**: Core programming language used for backend logic and AI model integration.
+- **Langchain**
+- **Vector Database**: Pinecone.
+- **AWS**: Cloud Infrastructure.
+- **HuggingFace Transformers**: Transformer models from HuggingFace's library for natural language processing (NLP).
+- **Generative AI**: Mistral AI, all-MiniLM-L12-v2
+- **MySQL**: Feedback mechanism to store user feedback.
 - **Streamlit**: Framework used to build the web-based user interface.
-- **RAG (Retrieval-Augmented Generation)**: A machine learning approach to generate answers by combining knowledge retrieval and generation.
-- **HuggingFace**: Transformer models from HuggingFace's library for natural language processing (NLP).
 
 ## Installation
 
